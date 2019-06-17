@@ -31,15 +31,6 @@
                 android:resource="@xml/gdt_file_path" />
         </provider>
 
-        <!-- 声明 SDK 所需要的组件 -->
-        <service
-            android:name="com.qq.e.comm.DownloadService"
-            android:exported="false"/>
-
-        <uses-library
-            android:name="org.apache.http.legacy"
-            android:required="false" />
-
     </application>
 
 
